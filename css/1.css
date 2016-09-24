@@ -552,3 +552,489 @@ dkb{
   margin-bottom: 2.25em;
   font-style: italic;
 }
+
+/* Bring all the different css files into one file to imporve the pagespeed
+
+/* cobalt2.css */
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #f8f8f2;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #0088FF;
+}
+
+.hljs-operator,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: #ff9d00;
+}
+
+.hljs-function .hljs-keyword {
+  color: #fb94ff;
+}
+
+/* Solarized Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #3AD900;
+}
+
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ffc600;
+}
+
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #ffc600;
+}
+
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #9effff;
+}
+
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #9effff;
+}
+
+.hljs-formula {
+  background: #073642;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-literal {
+  color: #FF628C;
+}
+
+.hljs-number {
+  color: #FF628C;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #9effff;
+}
+
+/* end of cobalt2.css */
+
+/* shamelessly stolen from http://csshake.surge.sh */
+
+.shake:hover, .shake-trigger:hover .shake, .shake.shake-freeze, .shake.shake-constant {
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+}
+
+.shake, .shake-little, .shake-slow, .shake-hard, .shake-horizontal, .shake-vertical, .shake-rotate, .shake-opacity, .shake-crazy, .shake-chunk {
+    display: inline-block;
+    transform-origin: center center;
+}
+
+.shake-delay, .shake-vertical-slow {
+  display: block;
+  transform-origin: center center; }
+
+.shake-freeze,
+.shake-constant.shake-constant--hover:hover,
+.shake-trigger:hover .shake-constant.shake-constant--hover {
+  animation-play-state: paused; }
+
+.shake-freeze:hover,
+.shake-trigger:hover .shake-freeze, .shake-delay:hover, .shake-trigger:hover .shake-delay, .shake-vertical-slow:hover, .shake-trigger:hover .shake-vertical-slow {
+  animation-play-state: running; }
+
+@keyframes shake {
+  2% {
+    transform: translate(0.5px, -1.5px) rotate(-0.5deg); }
+  4% {
+    transform: translate(0.5px, 1.5px) rotate(1.5deg); }
+  6% {
+    transform: translate(1.5px, 1.5px) rotate(1.5deg); }
+  8% {
+    transform: translate(2.5px, 1.5px) rotate(0.5deg); }
+  10% {
+    transform: translate(0.5px, 2.5px) rotate(0.5deg); }
+  12% {
+    transform: translate(1.5px, 1.5px) rotate(0.5deg); }
+  14% {
+    transform: translate(0.5px, 0.5px) rotate(0.5deg); }
+  16% {
+    transform: translate(-1.5px, -0.5px) rotate(1.5deg); }
+  18% {
+    transform: translate(0.5px, 0.5px) rotate(1.5deg); }
+  20% {
+    transform: translate(2.5px, 2.5px) rotate(1.5deg); }
+  22% {
+    transform: translate(0.5px, -1.5px) rotate(1.5deg); }
+  24% {
+    transform: translate(-1.5px, 1.5px) rotate(-0.5deg); }
+  26% {
+    transform: translate(1.5px, 0.5px) rotate(1.5deg); }
+  28% {
+    transform: translate(-0.5px, -0.5px) rotate(-0.5deg); }
+  30% {
+    transform: translate(1.5px, -0.5px) rotate(-0.5deg); }
+  32% {
+    transform: translate(2.5px, -1.5px) rotate(1.5deg); }
+  34% {
+    transform: translate(2.5px, 2.5px) rotate(-0.5deg); }
+  36% {
+    transform: translate(0.5px, -1.5px) rotate(0.5deg); }
+  38% {
+    transform: translate(2.5px, -0.5px) rotate(-0.5deg); }
+  40% {
+    transform: translate(-0.5px, 2.5px) rotate(0.5deg); }
+  42% {
+    transform: translate(-1.5px, 2.5px) rotate(0.5deg); }
+  44% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg); }
+  46% {
+    transform: translate(1.5px, -0.5px) rotate(-0.5deg); }
+  48% {
+    transform: translate(2.5px, -0.5px) rotate(0.5deg); }
+  50% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg); }
+  52% {
+    transform: translate(-0.5px, 1.5px) rotate(0.5deg); }
+  54% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg); }
+  56% {
+    transform: translate(0.5px, 2.5px) rotate(1.5deg); }
+  58% {
+    transform: translate(2.5px, 2.5px) rotate(0.5deg); }
+  60% {
+    transform: translate(2.5px, -1.5px) rotate(1.5deg); }
+  62% {
+    transform: translate(-1.5px, 0.5px) rotate(1.5deg); }
+  64% {
+    transform: translate(-1.5px, 1.5px) rotate(1.5deg); }
+  66% {
+    transform: translate(0.5px, 2.5px) rotate(1.5deg); }
+  68% {
+    transform: translate(2.5px, -1.5px) rotate(1.5deg); }
+  70% {
+    transform: translate(2.5px, 2.5px) rotate(0.5deg); }
+  72% {
+    transform: translate(-0.5px, -1.5px) rotate(1.5deg); }
+  74% {
+    transform: translate(-1.5px, 2.5px) rotate(1.5deg); }
+  76% {
+    transform: translate(-1.5px, 2.5px) rotate(1.5deg); }
+  78% {
+    transform: translate(-1.5px, 2.5px) rotate(0.5deg); }
+  80% {
+    transform: translate(-1.5px, 0.5px) rotate(-0.5deg); }
+  82% {
+    transform: translate(-1.5px, 0.5px) rotate(-0.5deg); }
+  84% {
+    transform: translate(-0.5px, 0.5px) rotate(1.5deg); }
+  86% {
+    transform: translate(2.5px, 1.5px) rotate(0.5deg); }
+  88% {
+    transform: translate(-1.5px, 0.5px) rotate(1.5deg); }
+  90% {
+    transform: translate(-1.5px, -0.5px) rotate(-0.5deg); }
+  92% {
+    transform: translate(-1.5px, -1.5px) rotate(1.5deg); }
+  94% {
+    transform: translate(0.5px, 0.5px) rotate(-0.5deg); }
+  96% {
+    transform: translate(2.5px, -0.5px) rotate(-0.5deg); }
+  98% {
+    transform: translate(-1.5px, -1.5px) rotate(-0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } }
+.shake-delay:hover, .shake-trigger:hover .shake-delay, .shake-delay.shake-freeze, .shake-delay.shake-constant {
+  animation-delay: 4s;
+  animation-duration: 100ms;
+  animation-iteration-count: infinite;
+  animation-name: shake;
+  animation-timing-function: ease-in-out; }
+
+@keyframes verical-slow {
+  2% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  4% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  6% {
+    transform: translate(0, 1.5px) rotate(-1.5deg); }
+  8% {
+    transform: translate(0, -1.5px) rotate(-1.5deg); }
+  10% {
+    transform: translate(0, 2.5px) rotate(1.5deg); }
+  12% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  14% {
+    transform: translate(0, -1.5px) rotate(1.5deg); }
+  16% {
+    transform: translate(0, -0.5px) rotate(-1.5deg); }
+  18% {
+    transform: translate(0, 0.5px) rotate(-1.5deg); }
+  20% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  22% {
+    transform: translate(0, 0.5px) rotate(-1.5deg); }
+  24% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  26% {
+    transform: translate(0, 0.5px) rotate(0.5deg); }
+  28% {
+    transform: translate(0, 0.5px) rotate(1.5deg); }
+  30% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  32% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  34% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  36% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  38% {
+    transform: translate(0, 1.5px) rotate(-1.5deg); }
+  40% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  42% {
+    transform: translate(0, 2.5px) rotate(-1.5deg); }
+  44% {
+    transform: translate(0, 1.5px) rotate(0.5deg); }
+  46% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  48% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  50% {
+    transform: translate(0, 0.5px) rotate(0.5deg); }
+  52% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  54% {
+    transform: translate(0, -1.5px) rotate(1.5deg); }
+  56% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  58% {
+    transform: translate(0, 0.5px) rotate(2.5deg); }
+  60% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  62% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  64% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  66% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  68% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  70% {
+    transform: translate(0, 1.5px) rotate(0.5deg); }
+  72% {
+    transform: translate(0, 2.5px) rotate(1.5deg); }
+  74% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  76% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  78% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  80% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  82% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  84% {
+    transform: translate(0, 1.5px) rotate(2.5deg); }
+  86% {
+    transform: translate(0, -1.5px) rotate(-1.5deg); }
+  88% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  90% {
+    transform: translate(0, 2.5px) rotate(-0.5deg); }
+  92% {
+    transform: translate(0, 0.5px) rotate(-0.5deg); }
+  94% {
+    transform: translate(0, 2.5px) rotate(0.5deg); }
+  96% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  98% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } }
+.shake-vertical-slow:hover, .shake-trigger:hover .shake-vertical-slow, .shake-vertical-slow.shake-freeze, .shake-vertical-slow.shake-constant {
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: verical-slow;
+  animation-timing-function: ease-in-out; }
+
+/* end of shake.css */
+
+/* social.css */
+/* Sharingbuttons.io
+  Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.
+*/
+
+.resp-sharing-button {
+  display: inline-block;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  transition: background-color 25ms ease-out, border-color 25ms ease-out, opacity 250ms ease-out;
+  margin: 0.5em;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.resp-sharing-button a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+
+.resp-sharing-button__icon {
+  display: inline-block;
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.1em;
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #FFF;
+  fill: none;
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #FFF;
+  stroke: none;
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.resp-sharing-button--large .resp-sharing-button__icon svg {
+  padding-right: 0.4em;
+}
+
+.resp-sharing-button__wrapper {
+  display: inline-block;
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #444444;
+  border-color: #444444;
+}
+
+.resp-sharing-button--email:hover
+.resp-sharing-button--email:active {
+  background-color: #2B2B2B;
+  border-color: #2B2B2B;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0976b4;
+  border-color: #0976b4;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #075683;
+  border-color: #075683;
+}
+
+.social-div-outer {
+  text-align:center;
+  display:block;
+  padding: 0 0 0.8em;
+}
+
+.social-div-inner {
+  position:relative;
+  margin:0 auto;
+}
+
+.resp-sharing-button {
+border-radius: 3px;
+border-width: 1px;
+margin: 0.3em;
+padding: 0.5em 0.5em;
+}
+
+.resp-sharing-button__icon svg {
+width: 1.75em;
+height: 1.75em;
+margin-bottom: -0.3em;
+}
+
+/* end of social.css */
+
+
