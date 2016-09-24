@@ -1,5 +1,5 @@
-# scriptstar.github.io
+# A Digital Diary of Narendra Mandadapu
 
-A Digital Diary of Narendra Mandadapu
+https://www.scriptstar.co.uk/
 
-Built on Hugo!
+<img href="/static/media/2016-Sep/Page_Speed.mp4.gif" src="Fastest blog on the earth" />
