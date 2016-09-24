@@ -1,6 +1,8 @@
-# Morning pages theme for Hugo
+# Morning Pages Theme For Hugo
 
-<p align="center">https://www.scriptstar.co.uk/ </p>
+<p align="center">
+	<a href="https://www.scriptstar.co.uk/" target="_blank">A Digital Diary Of Narendra Mandadapu</a>
+</p>
 
 ## A lovingly crafted minimalistic zen theme for scribing your morning thoughts
 
