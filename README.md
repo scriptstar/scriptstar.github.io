@@ -2,4 +2,4 @@
 
 https://www.scriptstar.co.uk/
 
-<img href="https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.mp4.gif" src="Fastest blog on the earth" />
+<img src="https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.mp4.gif" alt="Fastest blog on the earth" />
