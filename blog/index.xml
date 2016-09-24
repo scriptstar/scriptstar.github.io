@@ -33,15 +33,97 @@
       <pubDate>Fri, 23 Sep 2016 21:25:51 +0100</pubDate>
       
       <guid>https://www.scriptstar.co.uk/blog/eighth-post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, te eam dolore timeam alienum. Cu clita eirmod quaerendum pri, eam dicunt apeirian ne, eirmod complectitur his ut. Ex modo placerat senserit sea, essent persecuti persequeris vix te. Prompta vulputate mei at. At vim aeterno appellantur, nam at singulis mandamus dissentiet.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, pro in clita delectus argumentum, mel eu error oratio, sale molestie pri ea. Id saepe senserit evertitur est, has te causae mollis blandit, cu eam illud ubique. Mel quis sadipscing philosophia cu, qui ex unum veniam. Id illud audire cum, et est probo sonet instructior. Mollis tibique an mel, dolore option integre has cu, ad elit harum vituperata usu. Id quo vitae scaevola, pri te error iisque, te vide ullum neglegentur sea.&lt;/p&gt;
 
-&lt;p&gt;Nec ea omnium perpetua efficiantur, persius docendi at eam, per delectus petentium eu. Qui assum intellegebat ut. Sonet scripta et his. At legimus moderatius vix, sed in dicam labores conclusionemque. Ut debet elitr sed. Usu ne nemore percipitur. In dicit populo eruditi duo, vidit tation pro ne.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class=&#34;${cls}&#34;`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i &lt; classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log(&#39;undefined&#39;);
+  }
+}
+export  $initHighlight;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Mei iusto voluptatibus eu, ne saperet interpretaris vel, debet iriure sea an. Et invenire sensibus per. Te graeci volumus elaboraret duo, id justo deserunt quo. Ex admodum oporteat quo, per neglegentur disputationi eu. Id prima labitur voluptaria vis, vim postea cetero nominati cu, bonorum nostrum intellegebat at eam.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/* jsx code */
 
-&lt;p&gt;Pro no ludus aliquip persequeris, tibique adolescens argumentum his et, summo possim facilisi sed at. Natum nonumy alterum per ne, quo ei officiis vituperata. Eius movet at mea, pri falli feugiat theophrastus ei. Mel in elitr verear molestie.&lt;/p&gt;
+render: function () {
+  return (
+      &amp;lt;form&amp;gt;
+        &amp;lt;textarea 
+          placeholder=&amp;quot;Type your answer here...&amp;quot; 
+          cols= &amp;quot;92&amp;quot;
+          rows=&amp;quot;15&amp;quot;/&amp;gt;
+        &amp;lt;button onclick=&amp;quot;{this.handleSubmit}&amp;quot;&amp;gt;Submit answer&amp;lt;/button&amp;gt;
+      &amp;lt;/form&amp;gt;
+    );
+}
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Ne falli audiam audire vix. Diam luptatum oportere nam ea. Cu mollis placerat sit. Modo tacimates eloquentiam te eos, natum justo labitur cu est, eos quot minim invenire id. Vix deleniti dissentiet ad. Sea ex sale sadipscing, at meis propriae vel, ex mei saperet inermis.&lt;/p&gt;
+&lt;p&gt;Nobis tantas alterum an pro, id eligendi platonem nam. Eos ut tacimates delicatissimi, in sed sonet assentior reformidans, sit ea melius oportere consequat. Vix an soluta posidonium, vis id epicurei deserunt persecuti. Errem animal deterruisset usu ne, populo utroque splendide id ius, mea dolore percipit no. Iriure honestatis qui ad, et mei vocent iuvaret, eam ei erant quodsi. Eu probo illud pri, ei iudico suavitate eum.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;body {
+  font-family: &amp;quot;Noto Sans&amp;quot;, sans-serif;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;import &amp;quot;fmt&amp;quot;
+func main() { fmt.Print(&amp;quot;Hello&amp;quot;) } 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;p { color: red }&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ npm install mongoose@4.1.8 &amp;ndash;save &lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ea eum solum forensibus scripserit, tale admodum commune an quo. Ad eros singulis iracundia eum, legimus postulant moderatius vix te, id cetero feugiat consequuntur vis. Possit luptatum usu ad. Probatus atomorum principes nec an.&lt;/p&gt;
+
+&lt;p&gt;Nisl euripidis intellegam cu mei. Eu autem elaboraret efficiendi est, epicurei senserit an sit. Ut elitr laboramus repudiandae pro, ne vix docendi lucilius nominati. Elitr oblique pri at, per debitis admodum insolens cu, nulla partem ex pri.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{ partial &amp;quot;header.html&amp;quot; . }}
+
+&amp;lt;div id=&amp;quot;content&amp;quot;&amp;gt;
+  &amp;lt;h1&amp;gt;Blog Archives&amp;lt;/h1&amp;gt;
+  &amp;lt;ul id=&amp;quot;blog-archives&amp;quot;&amp;gt;
+    {{ range (where .Site.Pages &amp;quot;Type&amp;quot; &amp;quot;blog&amp;quot;) }}
+        &amp;lt;li&amp;gt;
+          &amp;lt;time&amp;gt;{{ .Date.Format &amp;quot;2 January 2006&amp;quot; }}&amp;lt;/time&amp;gt;
+          &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; rel=&amp;quot;bookmark&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/a&amp;gt;
+        &amp;lt;/li&amp;gt;
+        {{ end }}
+  &amp;lt;/ul&amp;gt;
+
+{{ partial &amp;quot;footer.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nec ne minimum prodesset, sea nulla dignissim ei. Aeque convenire at sea, ei qui dolor tritani, eum purto integre ad. Vix inani erroribus ad. Blandit ancillae deseruisse his in, justo dictas assentior per et, rebum legere vocent cu quo. In qui error facilisi, vidisse dolorem officiis eu sed. Debet affert duo te.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Hello!&amp;lt;/title&amp;gt;
+  &amp;lt;style&amp;gt;body {width: 500px;}&amp;lt;/style&amp;gt;
+
+  &amp;lt;script type=&amp;quot;application/javascript&amp;quot;&amp;gt;
+    function $init() {return true;}
+  &amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+  &amp;lt;p checked class=&amp;quot;title&amp;quot; id=&#39;title&#39;&amp;gt;Title&amp;lt;/p&amp;gt;
+  &amp;lt;!-- here goes the rest of the page --&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ec ne minimum prodesset, sea nulla dignissim ei. Aeque convenire at sea, ei qui dolor tritani, eum purto integre ad. Vix inani erroribus ad. Blandit ancillae deseruisse his in, justo dictas assentior per et, rebum legere vocent cu quo. In qui error facilisi, vidisse dolorem officiis eu sed. Debet affert duo te.&lt;/p&gt;
+
+&lt;!-- &lt;div align=&#34;center&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt; --&gt;
 </description>
     </item>
     
