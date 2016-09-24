@@ -28,4 +28,4 @@ I am obsessed with site loading speeds means I optimised this theme to load with
 * Google Analytics
 * Beautiful code highighter using highlight.js with Cobalt2 theme
 
-[![Demo CountPages alpha](http://share.gifyoutube.com/KzB6Gb.gif)](https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.mp4)
+<a href="https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.mp4">Wacth here<a/>
