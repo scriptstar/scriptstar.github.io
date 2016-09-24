@@ -2,4 +2,4 @@
 
 https://www.scriptstar.co.uk/
 
-<img href="/static/media/2016-Sep/Page_Speed.mp4.gif" src="Fastest blog on the earth" />
+<img href="/media/2016-Sep/Page_Speed.mp4.gif" src="Fastest blog on the earth" />
