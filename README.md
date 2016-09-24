@@ -1,8 +1,6 @@
-# A Digital Diary Of Narendra Mandadapu
+# Morning pages theme for Hugo
 
 <p align="center">https://www.scriptstar.co.uk/ </p>
-
-# Morning pages theme for Hugo
 
 ## A lovingly crafted minimalistic zen theme for scribing your morning thoughts
 
@@ -28,4 +26,4 @@ I am obsessed with site loading speeds means I optimised this theme to load with
 * Google Analytics
 * Beautiful code highighter using highlight.js with Cobalt2 theme
 
-<a href="https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.mp4">Wacth here<a/>
+<img src="https://github.com/scriptstar/scriptstar.github.io/blob/master/media/2016-Sep/Page_Speed.gif" alt="Fast blog" />
