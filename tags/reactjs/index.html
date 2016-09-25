@@ -17,10 +17,25 @@
 
 	
 	<link rel="stylesheet" type="text/css" href="https://www.scriptstar.co.uk/css/1.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,500&amp;subset=latin" media="all" />
 
 	 
-	
+	<noscript id="deferred-styles">
+  	<link rel="stylesheet" 
+  	href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,500&amp;subset=latin" media="all" />
+	</noscript>
+	<script>
+	  var loadDeferredStyles = function() {
+	    var addStylesNode = document.getElementById("deferred-styles");
+	    var replacement = document.createElement("div");
+	    replacement.innerHTML = addStylesNode.textContent;
+	    document.body.appendChild(replacement)
+	    addStylesNode.parentElement.removeChild(addStylesNode);
+	  };
+	  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+	      webkitRequestAnimationFrame || msRequestAnimationFrame;
+	  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+	  else window.addEventListener('load', loadDeferredStyles);
+	</script>
 
 	
 	
