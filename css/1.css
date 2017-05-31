@@ -444,7 +444,7 @@ footer nav ul li a{
     padding: .8em;
     line-height: 1.5em;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     background: #193549;
     font-size: .8em;
 }
